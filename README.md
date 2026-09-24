@@ -68,10 +68,10 @@ datasets/
 
 Найкращі валідаційні результати:
 
-| Модель | Accuracy | F1-macro |
-|---|---:|---:|
-| SimpleCNN | 82.15% | 0.8232 |
-| ResNet18 Transfer Learning | 90.67% | 0.9083 |
+| Модель                     | Accuracy | F1-macro |
+|----------------------------|---------:|---------:|
+| SimpleCNN                  |  82.15%  |  0.8232  |
+| ResNet18 Transfer Learning |  90.67%  |  0.9083  |
 
 ResNet18 показала кращий результат завдяки використанню попередньо навчених ознак ImageNet.
 
@@ -110,7 +110,3 @@ import torch
 print(torch.cuda.is_available())
 print(torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'CPU')
 ```
-
-## Автор
-
-Євген Петров
